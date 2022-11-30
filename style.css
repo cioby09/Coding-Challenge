@@ -1,0 +1,72 @@
+body{ /* Sfondo */
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.container{ /* Contenitore contenuto principale */
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  font-family: Poppins, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px;
+  border-radius: 20px;
+}
+
+header, nav{
+  text-align: center;
+}
+
+#logo{
+  width: 250px;
+}
+
+.titolo{
+  color: #00dd00;
+  margin: auto;
+}
+
+nav{
+  background-color: #00dd00;
+  padding: 12px;
+}
+
+.lista{
+  color: white;
+  list-style: none;
+  padding: 0px;
+  margin: auto;
+}
+
+li:before{ /* Quadratini lista */
+  content: "\25A0";
+  font-size: 25px;
+}
+
+li h2{ /* Titoli della lista */
+  margin-bottom: auto;
+  display: inline-block;
+}
+
+.charge{ /* Stato carica */
+  height: 30px;
+  border-radius: 5px;
+}
+
+.charge.first{ /* Prima carica */
+  background-color: #f4b453;
+  width: 35%;
+}
+
+.charge.second{ /* Seconda carica */
+  background-color: #00dd00;
+  width: 60%;
+}
+
+.charge.third{ /* Terza carica */
+  background-color: #be4141;
+  width: 15%;
+}
